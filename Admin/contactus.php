@@ -85,13 +85,15 @@ while($data=mysqli_fetch_array($result))
 {
 
 	
-		echo "<td style=' padding:5px;'>$data[0]</td>
+		echo "<tr>
+		<td style=' padding:5px;'>$data[0]</td>
 		<td style=' padding:5px;'>$data[1]</td>
 		<td style=' padding:5px;'>$data[2]</td>
 		<td style=' padding:5px;'>$data[3]</td>
 		<td style=' padding:5px;'>$data[4]</td>
 		<td style=' padding:5px;'>$data[5]</td>
-		<td style=' padding:5px;'>$data[6]</td>";
+		<td style=' padding:5px;'>$data[6]</td>
+		</tr>";
 
 }
 

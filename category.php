@@ -36,7 +36,7 @@
 <?php
 
 
-$s="select * from tour";
+$s="select * from tours";
 $result=mysqli_query($cn,$s);
 $r=mysqli_num_rows($result);
 //echo $r;

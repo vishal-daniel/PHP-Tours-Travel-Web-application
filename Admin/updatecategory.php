@@ -122,7 +122,7 @@ mysqli_close($cn);
 ?>
 
 </td></tr>
-<tr><td class="lefttxt">Tour Name</td><td><input type="text"   value="<?php if(isset($_POST["show"])){ echo $Cat_name ;} ?>" name="t2" required pattern="[a-zA-z _]{3,10}" title"Please Enter Only Characters between 3 to 10 for Category Name"/></td></tr>
+<tr><td class="lefttxt">Tour Name</td><td><input type="text"   value="<?php if(isset($_POST["show"])){ echo $Tour_name ;} ?>" name="t2" required pattern="[a-zA-z _]{3,10}" title"Please Enter Only Characters between 3 to 10 for Category Name"/></td></tr>
 
 <tr><td>&nbsp;</td><td ><input type="submit" value="Update" name="sbmt" /></td></tr>
 </table>
