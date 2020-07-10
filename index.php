@@ -165,7 +165,7 @@
 <?php
 
 
-$s="select * from tours";
+$s="select * from tour";
 $result=mysqli_query($cn,$s);
 $r=mysqli_num_rows($result);
 //echo $r;
