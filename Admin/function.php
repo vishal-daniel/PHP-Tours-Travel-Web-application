@@ -1,23 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Untitled Document</title>
 </head>
 
 <body>
-<?php
-function makeconnection()
-{
-	$cn=mysqli_connect("localhost","root","","travel");
-	if(mysqli_connect_errno())
+	<?php
+	function makeconnection()
 	{
-		echo "failed to connect to mysqli:".mysqli_connect_error();
+		$cn = mysqli_connect("localhost", "root", "", "travel");
+		if (mysqli_connect_errno()) {
+			echo "failed to connect to mysqli:" . mysqli_connect_error();
+		}
+		return $cn;
 	}
-	return $cn;
-}
 
-$cn=mysqli_connect("localhost","root","","travel");
-?>
+	$cn = mysqli_connect("localhost", "root", "", "travel");
+	?>
 </body>
+
 </html>

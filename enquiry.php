@@ -46,10 +46,6 @@ if(isset($_POST["sbmt"]))
 <div style="height:50px"></div>
 <div style="width:1000px; margin:auto"  >
 
-<!-- <div style="width:200px; font-size:18px; color:#09F; float:left">
-
-<table cellpadding="0" cellspacing="0" width="1000px">
-<tr><td style="font-size:18px" color="#09F">Category</td></tr>
 <?php
 
 $s="select * from tours";
